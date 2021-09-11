@@ -1,0 +1,72 @@
+/* fnavigation styles */
+.fnav {
+  height: 100px;
+  background-color: #212529;
+  padding: 0px;
+  margin: 0px;
+}
+
+.fnav ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.fnav li {
+  font-family: 'Oswald', sans-serif;
+  width: 80px;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  display: inline-block;
+}
+  
+.fnav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+  
+.fnav li.logo {
+  width: 250px;
+  border-bottom: none;
+  height: 100px;
+  line-height: 50px;
+  font-size: 1.4em;
+}
+  
+.fnav a:hover {
+  background-color: #005f5f;
+}
+  
+.fnav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+  
+@media screen and (min-width: 800px) {
+  .fnav li {
+    width: 130px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+    display: inline-block;
+  }
+  
+  .fnav li.logo {
+    width: 250px;
+    border-bottom: none;
+    height: 100px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+}
+
+
+div.content_block {
+  padding: 10px;
+}
